@@ -1,3 +1,14 @@
+// TODO:
+// Storage value holds int
+// Callable function increments int
+// Outputs event to show current value
+// Throws error when int is 3
+// Throws error when int is value configured in runtime config
+// genesis spec that starts with different value
+// unit test for function
+// storage migration for value
+// hook that increments the value
+
 #![cfg_attr(not(feature = "std"), no_std)]
 
 #[cfg(feature = "std")]
